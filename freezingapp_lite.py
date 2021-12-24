@@ -8,7 +8,7 @@ import time
 st.set_page_config(page_title="Freya", page_icon="🧊",
                    layout="centered", initial_sidebar_state="collapsed")
 
-st.image('/logo.png', width=600)
+st.image('logo.png', width=600)
 st.markdown('Free-zing APP Lite - Software Open Source per il calcolo del ghiaccio e della dolcezza di un gelato, di Fabio & Aldo Pasquarella')
 
 url1 = "https://didatticagelato.it/"
