@@ -19,9 +19,9 @@ st.write(" ")
 with st.expander("Espandimi per le istruzioni"):
     st.write("""
 
-    Free-zing APP Lite ti fornisce la possibilità di calcolare due parametri importanti per la previsione di un gelato: POD e quantità di ghiaccio. 
+    Free-zing APP Lite ti fornisce la possibilità di calcolare due parametri importanti per la previsione della qualità del gelato: POD e quantità di ghiaccio in % sul peso complessivo. 
     La curva di congelamento si basa sul lavoro presente in "Ice Cream" di Goff. Se sei un professionista, puoi avere una versione più accurata della curva, 
-    con molte funzionalità, parametri e ingredienti in più: collegati qui per maggiori info:
+    con molte funzionalità, parametri e ingredienti in più: collegati qui sotto per maggiori info:
      """)
 
     url2 = "https://didatticagelato.it/free-zing-app/"
@@ -114,8 +114,8 @@ if len(ingredienti) > 0:
             POD = (ingr_ricetta['POD']).sum()
             ghiaccio = 100-se_rel/(f_interp2(-t)/100)
             st.write("______")
-            st.write("Ghiaccio=", np.round(ghiaccio, 1))
-            st.write("POD=", np.round(POD, 2))
+            st.write("Ghiaccio, % in peso =", np.round(ghiaccio, 1))
+            st.write("POD =", np.round(POD, 2))
 
         except:
             with st.spinner("Ingredienti non validi"):
