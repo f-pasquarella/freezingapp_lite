@@ -9,7 +9,7 @@ st.set_page_config(page_title="Freya", page_icon="🧊",
                    layout="centered", initial_sidebar_state="collapsed")
 
 st.image('logo.png', width=600)
-st.markdown('Free-zing APP Lite - Software Open Source per il calcolo del ghiaccio e della dolcezza di un gelato, di Fabio & Aldo Pasquarella')
+st.markdown('Free-zing APP Lite - Software Open Source per il calcolo del ghiaccio e della dolcezza di un gelato - 2022 Fabio & Aldo Pasquarella')
 
 url1 = "https://didatticagelato.it/"
 st.markdown("[www.didatticagelato.it](%s)" % url1)
@@ -52,7 +52,7 @@ SE = [0., 2.91262136,  5.66037736,  8.25688073, 10.71428571,
 
 f_interp2 = interp1d(FPD, SE, kind='quadratic')
 
-df = pd.read_excel('/x_lite.xlsx',engine='openpyxl')
+df = pd.read_excel('x_lite.xlsx',engine='openpyxl')
 df.dropna(inplace=True, axis=1, how='all')
 df.reset_index(drop=True, inplace=True)
 df = df.sort_values('INGREDIENTE')
