@@ -64,7 +64,8 @@ t = st.slider("Imposta la temperatura di servizio in °C", -
               18.0, -8.0, -12.0, 0.5)
 
 ingredienti = st.multiselect(
-    'Scegli gli ingredienti della tua ricetta', df.index.tolist())
+    'Scegli gli ingredienti della tua ricetta', df.index.tolist(),
+    help="Uno degli errori più frequenti è l'uso di molti ingredienti, scelta che spesso si rivela controproducente.Ti consiglio di partire con l'ingrediente caratterizzante la ricetta (cioccolato, nocciola, etc.), almeno un paio di zuccheri come saccarosio e destrosio in piccole quantità, un paio di addensanti come carruba e guar, magari una fibra e un ingrediente liquido come latte o acqua.")
 
 nr_ing = len(ingredienti)
 
