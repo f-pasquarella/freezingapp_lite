@@ -129,6 +129,6 @@ if len(ingredienti) > 0:
     st.write('____')
     st.markdown(
         "![Alt Text](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)")
-    url3 = "https://www.paypal.com/donate/?cHJwPXJwdA="
+    url3 = "https://www.paypal.com/donate?business=R67PMNVRJPGNU&item_name=Dona+per+un%27Informazione+Scientifica+Open&currency_code=EUR"
     st.markdown(
         "Aiuta questo progetto libero, anche con una piccola [donazione qui!](%s)" % url3)
