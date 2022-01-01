@@ -110,7 +110,7 @@ if len(ingredienti) > 0:
             SE_sale_SE = 11.722*sale_SE
             latt = min([lattosio, latt_max])
             se = SE_zuc + latt+SE_sali_latte+SE_sale_SE
-            se_rel = se*(100-se)/acqua
+            se_rel = se*100/acqua
             POD = (ingr_ricetta['POD']).sum()
             ghiaccio = 100-se_rel/(f_interp2(-t)/100)
             st.write("______")
