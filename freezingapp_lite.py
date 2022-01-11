@@ -28,6 +28,10 @@ with st.expander("Espandimi per le istruzioni"):
     st.markdown(
         "Scopri la Web-App più avanzata sul mercato di analisi di una ricetta: [Free-zing APP!](%s)" % url2)
 
+    url3 = "https://didatticagelato.it/wp-content/uploads/2022/01/tabella-parametri-lite.jpg"
+    st.markdown(
+        "[Clicca qui per la tabella di riferimento dei parametri!](%s)" % url3)
+
 
 st.write(" ")
 
