@@ -30,7 +30,7 @@ with st.expander("Espandimi per le istruzioni"):
     
     st.write("""
 
-     Qui in basso invece hai a disposizione una tabella di riferimento dei due valori per i principali gusti. Chiaramente è solo una linea guida. In genere la % di ghiaccio può subire un'oscillazione del 2-3% attorno alla media riportata, che aumenta per il POD.
+     Qui in basso invece hai a disposizione una tabella di riferimento dei due valori per i principali gusti. Chiaramente è solo una linea guida. In genere la % di ghiaccio può subire un'oscillazione del 2-3% attorno alla media riportata, che aumenta per il POD:
 
      """)
 
