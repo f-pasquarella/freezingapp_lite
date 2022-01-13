@@ -20,13 +20,19 @@ with st.expander("Espandimi per le istruzioni"):
     st.write("""
 
     Free-zing APP Lite ti fornisce la possibilità di calcolare due parametri importanti per la previsione della qualità del gelato: POD e quantità di ghiaccio in % sul peso complessivo. 
-    La curva di congelamento si basa sul lavoro presente in "Ice Cream" di Goff. Se sei un professionista, puoi avere una versione più accurata della curva, 
+    La curva di congelamento si basa sul lavoro presente in "Ice Cream" di Goff. Se sei un professionista, puoi avere una versione estremamente accurata della curva, 
     con molte funzionalità, parametri e ingredienti in più: collegati qui sotto per maggiori info:
      """)
 
     url2 = "https://didatticagelato.it/free-zing-app/"
     st.markdown(
         "Scopri la Web-App più avanzata sul mercato di analisi di una ricetta: [Free-zing APP!](%s)" % url2)
+    
+    st.write("""
+
+     Qui in basso invece hai a disposizione una tabella di riferimento dei due valori per i principali gusti. Chiaramente è solo una linea guida. In genere la % di ghiaccio può subire un'oscillazione del 2-3% attorno alla media riportata, che aumenta per il POD.
+
+     """)
 
     url3 = "https://didatticagelato.it/wp-content/uploads/2022/01/tabella-parametri-lite.jpg"
     st.markdown(
