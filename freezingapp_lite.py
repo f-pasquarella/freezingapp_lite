@@ -27,6 +27,10 @@ with st.expander("Espandimi per le istruzioni"):
     url2 = "https://didatticagelato.it/free-zing-app/"
     st.markdown(
         "Scopri la Web-App più avanzata sul mercato di analisi di una ricetta: [Free-zing APP!](%s)" % url2)
+
+    url2a = "https://www.patreon.com/didatticagelato"
+    st.markdown(
+        "Segui gli articoli di approfondimento sul gelato: [Blog-Patreon](%s)" % url2a)
     
     st.write("""
 
